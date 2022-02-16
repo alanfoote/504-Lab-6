@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leaflet Draw Example</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /><!--These settings are ideal for full-screen mobile use-->
+	<link rel="stylesheet" href="styles.css"/>
+	<!-- Leaflet links -->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+	  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+	  crossorigin=""/>
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+	  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+	  crossorigin=""></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js" integrity="sha512-ozq8xQKq6urvuU6jNgkfqAmT7jKN2XumbrX1JiB3TnF7tI48DPI4Gy1GXKD/V3EExgAs1V+pRO7vwtS1LHg0Gw==" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css" integrity="sha512-gc3xjCmIy673V6MyOAZhIW93xhM9ei1I+gLbmFjUHIjocENRsLX/QUE1htk5q1XV2D/iie/VQ8DXI6Vu8bexvQ==" crossorigin="anonymous" />
+	</head>
+
+<body>
+	<div class="header">
+			<p><br></p>
+		<h1> Mini-Repositories of Mid-Beacon Hill</h1><p></p>
+	</div>
+
+	<div id="map"></div>
+	<div id="popup"></div>
+	<script src="javascript.js"></script>
+
+	<p><br></p>
+	<p><b> Use this application to record local neighborhood repositories and the attributes therein. Repositories are often recognized as 'little free libraries' but have grown to be focused on other valuable necessities for communities such as food, toys, and sport equipment. When you find a repository, input the requested information: Name (Does the repository have a name?), Content (What does the repository contain?), Stock (Is the repository well stocked or lacking?), Craftsmanship (Be kind but honest), and ADA (Is this repository accessible to people in wheelchairs?) </b></p>
+	<p><br><br><br></p>
+
+	<footer>
+		<h5> Data source: Mapbox, OpenStreetMap, You</h5>
+	</footer>
+</body>
+</html>
